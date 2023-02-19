@@ -1,0 +1,12 @@
+build
+coverage
+__migration__
+__stubs__
+__tests__
+__postman__
+.vscode
+.VSCodeCounter
+docs
+az-functions
+az-functions-prod
+dist

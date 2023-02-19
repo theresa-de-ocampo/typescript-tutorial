@@ -1,0 +1,57 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["sonarjs", "prettier"],
+  "extends": [
+    "airbnb-base",
+    "plugin:sonarjs/recommended",
+    "prettier",
+    "plugin:node/recommended"
+  ],
+  "ignorePatterns": [
+    "*.test.js",
+    "*.json",
+    ".sql",
+    "coverage",
+    "node_modules",
+    "setup.js",
+    "__tests__",
+    "__migration__",
+    "__stubs__",
+    "migrations",
+    "bootstrap",
+    "seeds"
+  ],
+  "rules": {
+    "no-use-before-define": "off",
+    "no-underscore-dangle": "off",
+    "no-return-await": "off",
+    "no-unused-vars": "warn",
+    "no-process-exit": "off",
+    "arrow-body-style": "off",
+    "complexity": ["error", 10],
+    "max-depth": ["error", 4],
+    "max-lines-per-function": [
+      "error",
+      {
+        "max": 150,
+        "skipComments": true
+      }
+    ],
+    "max-params": ["error", 5],
+    "no-param-reassign": "error",
+    "max-len": [
+      "error",
+      {
+        "code": 100
+      }
+    ],
+    "camelcase": "off",
+    "quotes": [2, "single", "avoid-escape"]
+  }
+}

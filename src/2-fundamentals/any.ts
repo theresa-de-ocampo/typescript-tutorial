@@ -14,8 +14,7 @@ let level
  *   (2) In Type Checking section of tsconfig.json, set noImplicitAny to false. Use this only if you
  *       know what you're doing. Otherwise, there's really no point in using TypeScript because
  *       you'll loose the major benefits of TypeScript.
- * @param document
  */
-function render(document: any) {
+function renderAnyDocument(document: any) {
   console.log(document)
 }

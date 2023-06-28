@@ -41,3 +41,5 @@ let teriz: Customer = {
 }
 
 console.log(teriz)
+
+export {}

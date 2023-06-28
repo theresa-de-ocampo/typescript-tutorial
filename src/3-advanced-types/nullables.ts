@@ -53,3 +53,5 @@ let ride = {
   speed: speed ?? 30
 }
 console.log(ride.speed)
+
+export {}

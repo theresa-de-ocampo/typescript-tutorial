@@ -42,3 +42,14 @@ console.log(myStudent?.birthday) // outputs undefined
  */
 let log: any = null
 log?.('a')
+
+// Nullish Coalescing Operator
+let speed: number | null = null
+let ride = {
+  // Falsy: undefined, null, '', false, 0
+  // speed || 30  will not work as intended since 0 is falsy
+
+  // If speed is undefined or null, set it to 0
+  speed: speed ?? 30
+}
+console.log(ride.speed)

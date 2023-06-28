@@ -1,8 +1,6 @@
-# Learning TypeScript
+# I. Getting Started with TypeScript
 
-## I. Getting Started with TypeScript
-
-### I.a. Configuring the TypeScript Compiler
+## I.a. Configuring the TypeScript Compiler
 
 ```bash
 tsc --init
@@ -119,6 +117,15 @@ Some of the most useful compiler options are listed below. Press `Ctrl + Space` 
         <p>When type checking, take into account <code>null</code>, and <code>undefined</code>. Hence, if you pass <code>null</code> as a parameter to a function that expects a string, it will immediately throw an error.</p>
       </td>
     </tr>
+    <tr>
+      <td>Type Checking</td>
+      <td><code>allowUnreachableCode</code></td>
+      <td><code>true</code></td>
+      <td>
+        <p>Disable error reporting for unreachable code.</p>
+        <p>Setting it to <code>false</code> might not be helpful if you throw errors.</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -134,7 +141,7 @@ Then run it with:
 node dist/index.js
 ```
 
-### I.b. Debugging TypeScript Applications
+## I.b. Debugging TypeScript Applications
 
 At `tsconfig.json`, make sure `sourceMap` is enabled. Source Map is a file that specifies how each line of our TypeScript code, maps to the generated JavaScript code.
 

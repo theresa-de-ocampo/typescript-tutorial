@@ -4,6 +4,8 @@
  * Initially, we don't know if the weight is a number or a string.
  * So when we do weight period, we only see properties and methods that are common between numbers
  * and strings.
+ *
+ * We are not seeing methods that are specific to numbers, or strings.
  */
 function kgToLbs(weight: number | string): number {
   // Narrowing Technique of Unions

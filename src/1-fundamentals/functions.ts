@@ -20,7 +20,7 @@
  *
  * If you don't define the return type, you should turn on noImplicitReturns
  *
- * You could say that a param is optional by adding a questio mark:
+ * You could say that a param is optional by adding a question mark:
  *   function calculateTax(income: number, taxYear?: number)
  *
  * @param income

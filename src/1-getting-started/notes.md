@@ -28,8 +28,8 @@ Some of the most useful compiler options are listed below. Press `Ctrl + Space` 
       <td>Modules</td>
       <td><code>module</code></td>
       <td>
-        <code>CommonJS</code> - module.exports, require
-        <code>ES2022</code> (ESmodules) - export, import
+        <p><code>CommonJS</code> - <code>module.exports</code>, <code>require</code></p>
+        <p><code>ES2022</code> (ESmodules) - <code>export</code>, <code>import</code></p>
       </td>
       <td>
         Specify what module code is generated.

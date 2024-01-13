@@ -30,3 +30,5 @@ class Student extends Person {
 const teriz = new Student(1, 'Teriz', 'De Ocampo')
 teriz.walk()
 teriz.takeExam()
+
+export {}

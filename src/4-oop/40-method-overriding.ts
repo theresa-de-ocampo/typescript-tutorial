@@ -24,3 +24,5 @@ class Teacher extends Human {
 
 const mosh = new Teacher('Mosh', 'Hamedani')
 console.log(mosh.fullName)
+
+export {}

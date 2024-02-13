@@ -18,7 +18,7 @@ type Student = {
 }
 
 /**
- * For instance, this a function that gets a student record from the database.
+ * For instance, this is a function that gets a student record from the database.
  * Return type is Student or null, in case there is not student with the given ID.
  */
 function getStudent(id: number): Student | null {
@@ -49,7 +49,7 @@ let ride = {
   // Falsy: undefined, null, '', false, 0
   // speed || 30  will not work as intended since 0 is falsy
 
-  // If speed is undefined or null, set it to 0
+  // If speed is undefined or null, set it to 30
   speed: speed ?? 30
 }
 console.log(ride.speed)

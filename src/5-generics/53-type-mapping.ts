@@ -16,6 +16,12 @@ type Nullable<T> = {
   [K in keyof T]: T[K] | null
 }
 
+// Not possible with interfaces
+// interface Foo<T> {
+//   name: T
+//   readonly [K in keyof T]: T[K]
+// }
+
 let cheetos: ReadOnly<Product> = {
   name: 'Cheetos',
   price: 200

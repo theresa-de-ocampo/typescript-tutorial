@@ -6,7 +6,7 @@
  * Especially if we are building an API for other people to use.
  *
  * Explicitly specifying the return type provides a benefit.
- * If you forgot to return a value, of return a different type,
+ * If you forgot to return a value, or returned a different type,
  * we get a transpilation error immediately.
  *
  * We have a transpilation option for detecting unused vars.

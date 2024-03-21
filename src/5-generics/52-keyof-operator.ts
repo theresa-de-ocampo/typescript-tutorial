@@ -15,6 +15,7 @@ class Store<T> {
     return this._objects
   }
 
+  // Useful, instead of defining several functions (findById, findByName, findByCategory, etc.)
   find(property: keyof T, value: unknown) {
     this._objects.find(obj => obj[property] === value)
   }

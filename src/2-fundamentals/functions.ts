@@ -16,7 +16,7 @@
  *
  * If we just have `if (income < 50_000) return income * 1.2`,
  * because JS implicitly returns 'undefined', we'll get:
- *   - Function lacks ending return statement, and return type does no include 'undefined'
+ *   - Function lacks ending return statement, and return type does not include 'undefined'
  *
  * If you don't define the return type, you should turn on noImplicitReturns
  *

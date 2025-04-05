@@ -32,7 +32,11 @@ Some of the most useful compiler options are listed below. Press `Ctrl + Space` 
         <p><code>ES2022</code> (ESmodules) - <code>export</code>, <code>import</code></p>
       </td>
       <td>
-        Specify what module code is generated.
+        <p>Specify what module code is generated.</p>
+        <p>Determines the type of import or export used.</p>
+        <p>
+          If you encountered <code>ReferenceError: exports is not defined</code>`, while trying to run <code>node ./dist/index</code>, you need to configure <code>module</code>.
+        </p>
       </td>
     </tr>
     <tr>
@@ -43,6 +47,19 @@ Some of the most useful compiler options are listed below. Press `Ctrl + Space` 
       </td>
       <td>
         Specify the root folder within your source files.
+      </td>
+    </tr>
+    <tr>
+      <td>Modules</td>
+      <td><code>moduleResolution</code></td>
+      <td>
+        <code>node16</code> or <code>nodeNext</code>
+      </td>
+      <td>
+        <p>Specify how TypeScript looks up a file from a given module specifier.</p>
+        <p>
+          It determines the algorithm used for findind or resolving modules, e.g., looking in <code>node_modules</code> or searching relative paths.
+        </p>
       </td>
     </tr>
     <tr>

@@ -35,3 +35,11 @@ Make sure you're using an external file compiler like esbuild to compile your Ty
    - Do note that if you've set it as `./dist/*`, it will only include files directly inside the direcory. Hence, Intelisense won't work for any object you've imported (e.g., `logger`).
    - Use `dist`, or `./dist/**`.
    - Do not use `./dist/` as this will only match directories.
+
+## III. Cannot find name 'console'
+
+You will have to install the `@types/node` to get node typings.
+
+```bash
+npm install @types/node --save-dev
+```

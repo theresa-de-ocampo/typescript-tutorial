@@ -63,6 +63,26 @@ Some of the most useful compiler options are listed below. Press `Ctrl + Space` 
       </td>
     </tr>
     <tr>
+      <td>JavaScript Support</td>
+      <td><code>allowJs</code></td>
+      <td>
+        <code>true</code>
+      </td>
+      <td>
+        Allow JavaScript files to be part of your program.
+      </td>
+    </tr>
+    <tr>
+      <td>JavaScript Support</td>
+      <td><code>checkJs</code></td>
+      <td>
+        <code>true</code>
+      </td>
+      <td>
+        It's not as comprehensive as what you'd get with TypeScript files, but it provides basic type checking.
+      </td>
+    </tr>
+    <tr>
       <td>Emit</td>
       <td><code>outDir</code></td>
       <td><code>./dist</code></td>
